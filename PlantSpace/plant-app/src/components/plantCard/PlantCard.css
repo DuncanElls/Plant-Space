@@ -1,0 +1,19 @@
+.plant-info {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 2rem;
+}
+
+.plant-category {
+    display: grid;
+    color: rgb(25, 98, 19);
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+.plant-bottom-info {
+    color: white;
+}

@@ -1,0 +1,89 @@
+.nav-root {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.nav-root nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    /* min. space between .left and .right boxes */
+    padding: 0.5rem 1rem;
+    background: linear-gradient(rgb(25, 98, 19), rgb(15, 86, 15));
+    color: rgb(247, 248, 254);
+}
+
+nav .left,
+nav .right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav .home-button {
+    color: greenyellow;
+    background-color: var(--primary-white);
+    font-size: 17pt;
+    padding: .5em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+nav .garden {
+    color: greenyellow;
+    font-size: 17pt;
+}
+
+nav .garden-text {
+    background: linear-gradient(rgb(25, 98, 19), rgb(15, 86, 15));
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+nav .logout,
+nav .login {
+    background-color: var(--primary-white);
+    color: greenyellow;
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    width: 6rem;
+    font-size: 12pt;
+    border-radius: 25px;
+}
+
+nav .active-user {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav .logout:hover,
+nav .login:hover,
+nav .icon:hover {
+    box-shadow: 0px 0px 4px 2px #c5cac8 inset;
+
+}
+
+.nav-root .exit {
+    color: rgba(91, 158, 108, 0.719);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nav-root .exit:hover {
+
+    color: rgb(213, 110, 110);
+}
+
+nav .logged-out {
+    display: flex;
+    gap: 20px;
+}

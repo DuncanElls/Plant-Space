@@ -1,0 +1,33 @@
+.flex-display-root {
+    text-align: left;
+    margin: 0;
+    color: var(--primary-black);
+}
+
+.flex-display-root .products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 100%;
+
+}
+
+.flex-display-root h2 {
+    text-align: left;
+    margin: 1em;
+    padding: .25em;
+    font-size: 25pt;
+    color: var(--primary-black);
+    border-bottom: solid 3px var(--primary-green);
+    width: fit-content;
+}
+
+.flex-display-root .carousel {
+    display: flex;
+    align-items: center;
+}
+
+.flex-display-root .icon {
+    font-size: 30pt;
+}

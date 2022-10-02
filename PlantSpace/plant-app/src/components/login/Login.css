@@ -1,0 +1,44 @@
+.login-root h1 {
+    background: linear-gradient(45deg, var(--primary-green), var(--secondary-green));
+    margin: 0 auto;
+    padding: 1rem;
+    color: var(--primary-white);
+    font-size: 22pt;
+    text-align: center;
+}
+
+.login-root {
+    background-color: rgb(247, 228, 211);
+
+}
+
+.login-root .form,
+.login-root .switch {
+    margin: 2rem;
+}
+
+.login-root .switch {
+    text-align: center;
+}
+
+.login-root hr {
+    margin: 0 1rem;
+    border: 0;
+    height: 1px;
+    background: var(--primary-black);
+}
+
+.login-root button {
+    cursor: pointer;
+    border-radius: 6px;
+    padding: .5em;
+}
+
+.login-root input {
+    background-color: rgb(247, 228, 211);
+    border: 2px solid transparent;
+}
+
+.login-root input:focus {
+    border: 2px solid var(--primary-green);
+}

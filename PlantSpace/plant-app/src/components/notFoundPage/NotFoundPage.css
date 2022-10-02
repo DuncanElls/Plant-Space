@@ -1,0 +1,16 @@
+.not-found-root {
+    padding: 1rem 2rem;
+}
+
+
+.not-found-root .return-home {
+    background-color: var(--primary-green);
+    color: var(--primary-white);
+    font-weight: 600;
+    font-size: 18pt;
+    padding: 1rem;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 8px;
+
+}

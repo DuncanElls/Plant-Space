@@ -1,0 +1,67 @@
+.login-form {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.login-form>div {
+    padding: 0.5em;
+    border: solid 2px black;
+    border-radius: .4rem;
+    margin: .4rem;
+}
+
+.login-form .login-failed {
+    color: var(--red);
+    font-size: 0.8rem;
+    opacity: 0;
+    cursor: default;
+}
+
+.login-form .login-failed.visible {
+    opacity: 1;
+}
+
+.login-form button {
+    padding: 0.5rem 1rem;
+    min-width: 5rem;
+    font-size: 1rem;
+}
+
+.login-form input {
+    padding: .5rem;
+    outline: none;
+
+}
+
+.login-form .show-password {
+    display: inline-block;
+
+}
+
+.login-form .button-green {
+    background-color: var(--primary-green);
+    font-weight: 500;
+    color: var(--primary-white);
+    display: inline-block;
+    text-align: center;
+}
+
+.login-form .button-green:disabled {
+    color: grey
+}
+
+.login-form .show-password,
+.login-form .checkbox {
+    cursor: pointer;
+}
+
+.login-form label {
+    color: var(--primary-black);
+    font-weight: 500;
+}
+
+.login-form .loader-spin-root {
+    display: flex;
+    background-color: inherit;
+}
