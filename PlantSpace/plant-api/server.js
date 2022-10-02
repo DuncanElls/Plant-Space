@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 require('./app/index');
-require('./app/routes/plants.routes.js')(app);
 require('./app/routes/users.routes.js')(app);
+require('./app/routes/plants.routes.js')(app);
 require('./app/routes/gardenItems.routes.js')(app);
 
 const PORT = process.env.PORT || 8080
